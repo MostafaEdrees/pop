@@ -1,0 +1,61 @@
+
+body{
+     font-family: 'Segoe UI light';
+}
+.box{
+     position: relative;
+    
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 20px;
+     cursor: pointer;
+}
+.layer{
+
+position: absolute;
+top: 130px;
+background-color: white !important;
+border-radius: 50%;
+
+}
+.lightContainer{
+position: fixed;
+top: 0;
+bottom: 0;
+right: 0;
+left: 0;
+background-color:rgba(0, 0, 0, 0.6);
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.lightiTeam{
+     width: 50%;
+height: 400px;
+
+padding: 20px;
+background-image: url(../images/work-1.jpg);
+background-size: cover;
+background-position: center center;
+display: flex;
+align-items: center;
+
+justify-content: space-between;
+position: relative;
+font-size:22px;
+}
+.icon{
+position: absolute;
+top: 0;
+right: 0;
+
+padding: 20px;
+}
+i{
+     cursor: pointer;
+}
+h3{
+font-size: 30px;
+color: blueviolet;
+}
